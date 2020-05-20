@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# aliases to make running wp-cli with so feel like running it natively
+# https://github.com/moderntribe/square1-global-docker/
+
+# run wp-cli in the docker container using so
+alias wp='so wp --'
+
+# run wp-cli with xdebug in the docker container using so
+alias wpx='so wp --xdebug --'
